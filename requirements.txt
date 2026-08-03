@@ -1,0 +1,11 @@
+pandas
+numpy
+scikit-learn
+xgboost
+lightgbm
+statsmodels
+prophet
+matplotlib
+holidays
+fastapi
+uvicorn
