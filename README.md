@@ -8,7 +8,8 @@ forecast API.
 - [x] Synthetic dataset generator (`src/generate_data.py`) — daily sales by
       store x category, with trend, weekly/yearly seasonality, US holidays,
       and promotions.
-- [ ] Feature engineering (lags, rolling stats, calendar features)
+- [x] Feature engineering (`src/features.py`) — calendar features, lag
+      features (1/7/14/28 days), and rolling mean/std (7/28 days), leakage-safe
 - [ ] Baseline models (naive, seasonal-naive, Prophet/ARIMA)
 - [ ] ML models (XGBoost/LightGBM) with time-aware cross-validation
 - [ ] Backtesting + uncertainty intervals
